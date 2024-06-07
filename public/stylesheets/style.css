@@ -28,7 +28,7 @@ a:hover{
 
 @media (min-width:768px) {
   .sidebar-left {
-    height: 100vh;
+    min-height: 100vh;
   }
 
   .sidebar-left .sidebar-nav  {
