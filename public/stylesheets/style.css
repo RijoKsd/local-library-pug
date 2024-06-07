@@ -1,16 +1,40 @@
-li{
-
-  margin-bottom: 10px;
-
-}
-@media (min-width:768px) {
-  .sidebar-left{
-    height: 100vh;
-  }
-  
-}
 .sidebar-nav {
   margin-top: 20px;
   padding: 0;
   list-style: none;
+}
+
+li {
+  margin-bottom: 10px;
+}
+a{
+  text-decoration: none;
+}
+ 
+a:hover{
+  text-decoration: underline;
+}
+
+.sidebar-left .sidebar-nav  {
+   display: flex;
+   flex-wrap: wrap;
+   gap:15px;
+}
+
+ 
+ 
+ 
+
+
+@media (min-width:768px) {
+  .sidebar-left {
+    height: 100vh;
+  }
+
+  .sidebar-left .sidebar-nav  {
+    display: block;
+  }
+
+
+
 }
