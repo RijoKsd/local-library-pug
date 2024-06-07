@@ -1,4 +1,8 @@
+li{
 
+  margin-bottom: 10px;
+
+}
 @media (min-width:768px) {
   .sidebar-left{
     height: 100vh;
