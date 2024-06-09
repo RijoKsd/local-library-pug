@@ -9,9 +9,6 @@ This web application creates an online catalog for a small local library, where 
 ![A UML diagram showing the relation of database entities in this example repository](https://raw.githubusercontent.com/mdn/express-locallibrary-tutorial/main/public/images/Library%20Website%20-%20Mongoose_Express.png)
 
 
-
-> **Note** The [auth branch](/../../tree/auth) in this repository implements an _unsupported_ and _undocumented_ version of the library with User Authentication and Authorization. This may be a useful starting point for some users.
-
 ## Quick Start
 
 To get this project up and running locally on your computer:
